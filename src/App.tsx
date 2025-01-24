@@ -55,16 +55,28 @@ function App() {
           </p>
 
           <div className={`flex justify-center space-x-4`}>
-            <div
-              className={`bg-black p-5 rounded-full text-2xl cursor-pointer`}
+            <a
+              href="https://x.com/xrpxrp_"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <FaXTwitter />
-            </div>
-            <div
-              className={`bg-black p-5 rounded-full text-2xl cursor-pointer`}
+              <div
+                className={`bg-black p-5 rounded-full text-2xl cursor-pointer`}
+              >
+                <FaXTwitter />
+              </div>
+            </a>
+            <a
+              href="https://t.me/XENOPHOBIC_RETARDED_PHILOSOPHY"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <PiTelegramLogoFill />
-            </div>
+              <div
+                className={`bg-black p-5 rounded-full text-2xl cursor-pointer`}
+              >
+                <PiTelegramLogoFill />
+              </div>
+            </a>
           </div>
         </motion.div>
       </section>
