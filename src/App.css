@@ -8,3 +8,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.logo{
+  font-family: "Permanent Marker", serif;
+}
+.monterrat{
+  font-family: "Montserrat", serif;
+}
+.primaryBG{
+  background-color: #3BAAFC;
+}
