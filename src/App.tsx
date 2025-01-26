@@ -29,17 +29,27 @@ function App() {
           </div>
           <ul className="hidden lg:flex items-center space-x-4 sm:space-x-6 text-sm sm:text-lg lg:text-[30px]">
             <li>
-              <a href="#hero" className="hover:underline">
+              <a
+                href="https://t.me/whaleonxrp"
+                className="hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 TELEGRAM
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:underline">
-                TWITTER
+              <a
+                href="https://x.com/whaleonxrp"
+                className="hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                X
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:underline">
+              <a href="#" className="hover:underline">
                 DEXSCREENER
               </a>
             </li>
@@ -61,8 +71,10 @@ function App() {
             <ul className="flex flex-col items-center space-y-4 py-4 text-sm sm:text-lg lg:text-[30px]">
               <li>
                 <a
-                  href="#hero"
+                  href="https://t.me/whaleonxrp"
                   className="hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={toggleMenu}
                 >
                   TELEGRAM
@@ -70,19 +82,17 @@ function App() {
               </li>
               <li>
                 <a
-                  href="#about"
+                  href="https://x.com/whaleonxrp"
                   className="hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={toggleMenu}
                 >
-                  TWITTER
+                  X
                 </a>
               </li>
               <li>
-                <a
-                  href="#about"
-                  className="hover:underline"
-                  onClick={toggleMenu}
-                >
+                <a href="#" className="hover:underline" onClick={toggleMenu}>
                   DEXSCREENER
                 </a>
               </li>
@@ -120,7 +130,11 @@ function App() {
         </motion.div>
 
         <div className={`w-full lg:w-1/2 lg:mt-0 `}>
-          <img src="/whale.jpg" alt="Whale" className={`w-full rounded-lg -mt-[50px] lg:mt-0`} />
+          <img
+            src="/whale.jpg"
+            alt="Whale"
+            className={`w-full rounded-lg -mt-[50px] lg:mt-0`}
+          />
         </div>
       </section>
 
