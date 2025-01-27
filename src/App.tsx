@@ -54,9 +54,15 @@ function App() {
               </a>
             </li>
           </ul>
-          <button className="primaryBG rounded-full cursor-pointer px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-lg text-white hidden lg:block">
-            <p className={`logo`}>BUY ON</p>
-          </button>
+          <a
+            href="https://firstledger.net/token/rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy/5748414C45000000000000000000000000000000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="primaryBG rounded-full cursor-pointer px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-lg text-white hidden lg:block">
+              <p className={`logo`}>BUY ON</p>
+            </button>
+          </a>
         </nav>
 
         {/* Mobile Menu */}
@@ -97,12 +103,18 @@ function App() {
                 </a>
               </li>
               <li>
-                <button
-                  className="primaryBG rounded-full cursor-pointer px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-lg text-white"
-                  onClick={toggleMenu}
+                <a
+                  href="https://firstledger.net/token/rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy/5748414C45000000000000000000000000000000"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  BUY ON
-                </button>
+                  <button
+                    className="primaryBG rounded-full cursor-pointer px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-lg text-white"
+                    onClick={toggleMenu}
+                  >
+                    BUY ON
+                  </button>
+                </a>
               </li>
             </ul>
           </motion.div>
@@ -334,11 +346,19 @@ function App() {
             <div className="text-4xl lg:text-[60px] logo font-bold">3</div>
             <p className="text-center max-w-xs lg:text-[30px] w-[300px]">
               Send your XRP to your new wallet and ape:
-              <span className={`text-[14px]`}>rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy</span>
+              <span className={`text-[14px]`}>
+                rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy
+              </span>
             </p>
-            <button className="bg-[#fff] rounded-full cursor-pointer px-4 py-2 text-[#3BAAFC] logo">
-              BUY NOW!
-            </button>
+            <a
+              href="https://firstledger.net/token/rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy/5748414C45000000000000000000000000000000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#fff] rounded-full cursor-pointer px-4 py-2 text-[#3BAAFC] logo">
+                BUY NOW!
+              </button>
+            </a>
           </div>
         </div>
       </section>
