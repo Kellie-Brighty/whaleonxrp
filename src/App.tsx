@@ -49,7 +49,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="https://dexscreener.com/xrpl/5748414c45000000000000000000000000000000.rh2aarcxtxzebf6dprzz2pygqjjancnkyy_xrp" className="hover:underline">
                 DEXSCREENER
               </a>
             </li>
@@ -98,7 +98,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline" onClick={toggleMenu}>
+                <a href="https://dexscreener.com/xrpl/5748414c45000000000000000000000000000000.rh2aarcxtxzebf6dprzz2pygqjjancnkyy_xrp" className="hover:underline" onClick={toggleMenu}>
                   DEXSCREENER
                 </a>
               </li>
