@@ -334,7 +334,7 @@ function App() {
             <div className="text-4xl lg:text-[60px] logo font-bold">3</div>
             <p className="text-center max-w-xs lg:text-[30px] w-[300px]">
               Send your XRP to your new wallet and ape:
-              <span className={`text-[14px]`}>0000000000000000000000000</span>
+              <span className={`text-[14px]`}>rH2AarcXtxzEbf6DprZz2PYGQJjANcnkYy</span>
             </p>
             <button className="bg-[#fff] rounded-full cursor-pointer px-4 py-2 text-[#3BAAFC] logo">
               BUY NOW!
